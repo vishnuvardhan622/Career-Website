@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CAREER'S WEBSITE</title>
+    <style>
+      h1{
+        font-family:"Times New Roman", Times, serif;
+        text-align:center;
+      }
+      #banner{
+        object-fit:contain;
+      }
+
+      h2{
+        font-family:"Times New Roman", Times, serif;
+        text-align:center;
+      }
+
+      #para{
+        font-size:23px
+      }
+
+      .buttons{
+        display:flex;
+        justify-content:center;
+        align-items:center
+      }
+      
+    </style>
+  <link     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+ <h1>"ProfessionNavigator: Navigating Your Career Journey"</h1>
+  <img id="banner" src="static/Banner.jpg" alt="Banner Image" width="100%" height="470">
+  <h2>About ProfessionNavigator</h2>
+  <p id="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus viverra vitae congue eu consequat ac felis donec et. Aliquam ut porttitor leo a diam sollicitudin tempor. Duis ultricies lacus sed turpis. Scelerisque varius morbi enim nunc faucibus a pellentesque sit. Eget nunc lobortis mattis aliquam. Congue quisque egestas diam in arcu. Id ornare arcu odio ut sem nulla pharetra diam sit. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Duis ut diam quam nulla porttitor. Nullam ac tortor vitae purus faucibus ornare suspendisse sed. Sed blandit libero volutpat sed cras ornare arcu. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Mauris pharetra et ultrices neque ornare aenean euismod elementum nisi.</p>
+  <h2>Navigate your dream job</h2>
+  <div style="margin-bottom:30px">
+    {%include 'jobitem.html'%}
+  </div>
+  <div class="buttons">
+    <button id="button" type="button" class="btn btn-primary" >CONTACT US</button>
+  </div>
+</body>
+</html>
